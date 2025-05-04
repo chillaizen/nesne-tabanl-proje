@@ -1,0 +1,44 @@
+1. Genel Bilgi
+Bu program, bir stok ve sipariş yönetim sistemidir. Kullanıcılar yeni ürünler ekleyebilir, mevcut stokları görüntüleyebilir ve ürün siparişi oluşturabilir. Uygulama, Tkinter kütüphanesi ile hazırlanmış bir masaüstü arayüzüne sahiptir.
+
+2. Başlatma
+Programı çalıştırmak için:
+
+bash
+Kopyala
+Düzenle
+python stok.py
+Bu komut çalıştırıldığında grafik arayüz otomatik olarak açılacaktır.
+
+3. Ürün Ekleme
+Ürün Adı kutusuna eklenecek ürünün adını yazın.
+
+Stok Miktarı kutusuna ürünün stok adedini (tam sayı olarak) girin.
+
+Ürün Ekle butonuna tıklayın.
+
+Başarılı bir ekleme sonrası ürün, stok listesine kaydedilir ve ekranda bilgilendirme mesajı çıkar.
+
+4. Stokları Görüntüleme
+Stokları Göster butonuna tıkladığınızda, tüm mevcut ürünler ve stok miktarları alt tarafta listelenir.
+
+5. Sipariş Oluşturma
+Sipariş Ürün Adı kutusuna sipariş vermek istediğiniz ürünün adını yazın.
+
+Miktar kutusuna sipariş edilecek miktarı girin.
+
+Sipariş Oluştur butonuna tıklayın.
+
+Yeterli stok varsa sipariş oluşturulur, sipariş numarası ile birlikte bilgilendirme yapılır. Stoklar otomatik olarak güncellenir.
+
+Not:
+
+Stok yeterli değilse veya ürün bulunamazsa uyarı mesajı gösterilir.
+
+6. Siparişleri Görüntüleme
+Siparişleri Göster butonuna tıklayarak verilen tüm siparişleri listeleyebilirsiniz.
+
+7. Hatalar ve Uyarılar
+Geçersiz Sayı: Sayı girilmesi gereken yerlere (stok miktarı veya sipariş miktarı) geçersiz veri girerseniz hata mesajı çıkacaktır.
+
+Yetersiz Stok: Stok miktarı sipariş için yetersizse veya ürün bulunamazsa uyarı mesajı alınır.
